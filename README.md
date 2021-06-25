@@ -15,9 +15,9 @@ We are always working on new updates, so be sure to keep an eye open!.
 
 ``git clone https://github.com.com/cybercreek/puntu.git``
 
-``chmod +x puntu``
+``chmod +x quickstall.sh``
 
-`` sudo ./puntu``
+`` sudo ./quickstall.sh``
 
 
 
