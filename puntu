@@ -1,0 +1,55 @@
+#!/usr/bin/python3
+
+import os 
+import sys
+from time import sleep
+from stringcolor import *
+import subprocess
+
+import os
+ 
+
+
+def mainpuntu():
+    print(cs("""
+
+
+
+   dBBBBBb     dBP dBP    dBBBBb      dBBBBBBP    dBP dBP
+       dB'                   dBP                         
+   dBBBP'    dBP dBP    dBP dBP        dBP      dBP dBP  
+  dBP       dBP_dBP    dBP dBP        dBP      dBP_dBP   
+ dBP       dBBBBBP    dBP dBP        dBP      dBBBBBP   
+
+                                Port your favorite applications.                         
+
+
+    
+
+
+
+  1 >> Port Github Desktop   
+  2 >> Update Puntu
+  3 >> Search     
+    ""","blue"))
+    maopt = input(cs("  Your choice: ","blue"))
+    if maopt == "":
+        print(cs("You did not enter a valid option :(","red"))
+        sleep(2)
+        sys.exit
+    elif maopt == "1":
+        subprocess.call(['sh','./gs.sh'])
+    elif maopt == "2":
+       subprocess.call(['sh','./ud.sh'])
+    elif maopt == "3":
+      print(cs("This feature will be avaliable in the next update.","green"))
+if os.geteuid()==0:
+  mainpuntu()
+else:
+  print(cs("Puntu Exited > Reason: Not running as root. please try using sudo ./puntu","red"))
+
+
+
+
+
+
