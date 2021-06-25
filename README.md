@@ -21,6 +21,8 @@ We are always working on new updates, so be sure to keep an eye open!.
 
 `` sudo ./quickstall.sh``
 
+``sudo ./puntu``
+
 
 
 ## Supported Applications
