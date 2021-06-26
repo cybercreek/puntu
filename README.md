@@ -30,6 +30,9 @@ We are always working on new updates, so be sure to keep an eye open!.
 | Application | Supported |
 |-------------|-----------|
 | Github Desktop | Yes    |
+| Netflix | Not yet |
+| Hulu     | Not Yet |
+| Amazon Prime | Not Yet  |
 
 
 
